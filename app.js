@@ -47,3 +47,5 @@ app.get('/login', function (req, res) {
 });
 app.listen(config.app.port, config.app.host);
 console.log(`Running on http://${config.app.host}:${config.app.port}`);
+
+module.exports = app;
